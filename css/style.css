@@ -7,6 +7,7 @@ html{
 
 body{
     overflow: hidden;
+    background: #F5F0E3;
 }
 
 body, h1, h2, h3, h4, h5, p, ul{
@@ -37,6 +38,100 @@ a{
 
 .sp_flex{
     display: none;
+}
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: url("../img/header_bg.jpg")no-repeat center center/cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 0;
+}
+
+header > a{
+    margin-left: 8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header > a img{
+    width: 5.823rem;
+    margin-right: 1.28rem;
+}
+
+header > a h1{
+    font-size: 3.2rem;
+    color: #030303;
+    line-height: 1.2;
+}
+
+header > a h1 small{
+    color: white;
+    font-size: 1.7rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55.2rem;
+    margin-right: 6.3rem;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-right: 3.3rem;
+}
+
+header nav ul li a{
+    font-size: 2.4rem;
+    color: white;
+}
+
+header nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav div a{
+    background: #E58B04;
+    border-radius: .5rem;
+    padding: .95rem .92rem;
+}
+
+header nav div a:first-child{
+    margin-right: 1.9rem;
+}
+
+header nav div a img{
+    height: 4rem;
+}
+
+/* mv */
+#mv{
+    height: 85.75rem;
+    background: url("../img/mv.png")no-repeat center center/cover;
+    position: relative;
+}
+
+#mv .txt{
+    position: absolute;
+
+}
+
+#mv .txt h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
 }
 
 @media screen and (max-width: 767px){

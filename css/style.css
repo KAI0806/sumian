@@ -430,12 +430,17 @@ main{
     align-items: stretch;
 }
 
+#message .bottom picture{
+    overflow: hidden;
+}
+
 #message .bottom img{
     width: 62.2rem;
     position: relative;
     transform: none;
     left: unset;
     top: unset;
+    transform: scale(1.5);
 }
 
 #message .bottom div{
@@ -443,12 +448,17 @@ main{
     background: url("../img/message_bottom_bg.jpg")no-repeat center center/cover;
 }
 
+#message .bottom div:nth-child(3){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #message .bottom div p{
     font-size: 3.7rem;
     font-weight: bolder;
     color: white;
-    margin-left: 14rem;
-    transform: translateY(50%);
+    margin-left: 14rem
 }
 
 #message .bottom div p span{

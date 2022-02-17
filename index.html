@@ -13,9 +13,9 @@
         <a href="#"><img src="img/logo.svg" alt="すみあんのロゴ"><h1><small>串焼き・一品</small><br/>すみあん</h1></a>
 
         <nav>
-            <ul>
-                <li><a href="">テイクアウトメニュー</a></li>
-                <li><a href="">店舗情報</a></li>
+            <ul class="pc_flex">
+                <li><a href="#menu">テイクアウトメニュー</a></li>
+                <li><a href="#company">店舗情報</a></li>
             </ul>
     
             <div>
@@ -28,15 +28,15 @@
     <main>
         <section id="mv">
             <div class="txt">
-                <h2>30年継ぎ足している自家製のタレ</h2>
-                <h2>新鮮さにこだわった朝引きの鶏肉</h2>
+                <h2 class="mintyo"><span>30</span>年継ぎ足している自家製のタレ</h2>
+                <h2 class="mintyo">新鮮さにこだわった朝引きの鶏肉</h2>
             </div>
 
             <div class="news">
                 <img src="img/outer.png" alt="テイクアウト始めました">
                 <h3>
                     NEWS
-                    <br/><small>テイクアウト始めました！！</small>
+                    <br/><small>テイクアウト始めました!!</small>
                 </h3>
             </div>
         </section>
@@ -55,15 +55,15 @@
                 <div class="top">
                     <h3>焼き鳥</h3>
                     <div>
-                        <img class="sp_only" src="" alt="">
+                        <img class="sp_only" src="img/assorted.jpg" alt="焼き鳥盛り合わせ">
                         <div>
-                            <div>
+                            <div class="content border">
                                 <ul>
-                                    <li>焼き鳥盛り合わせ<br/>(おまかせ5本)</li>
+                                    <li>焼き鳥盛り合わせ<br/><span>(おまかせ5本)</span></li>
                                 </ul>
-                                <p>702円（税込）</p>
+                                <p>702円<small>（税込）</small></p>
                             </div>
-                            <div>
+                            <div class="content border">
                                 <ul>
                                     <li>かわ</li>
                                     <li>ずり</li>
@@ -72,56 +72,61 @@
                                     <li>手羽先 (2本)</li>
                                     <li>ウィンナー</li>
                                 </ul>
-                                <p>各432円（税込）</p>
+                                <p>各432円<small>（税込）</small></p>
                             </div>
                         </div>
                     </div>
 
-                    <div>
-                        <ul>
-                            <li>み (もも肉)</li>
-                            <li>ねっく (首肉)</li>
-                            <li>ねぎま</li>
-                            <li>こころ (心臓)</li>
-                            <li>つくね (自家製)</li>
-                            <li>なんこつ</li>
-                            <li>さんかく (しっぽ)</li>
-                            <li>うずら卵</li>
-                            <li>親鶏</li>
-                            <li>豚バラ</li>
-                            <li>豚ホルモン (しろ)</li>
-                            <li>やげんなんこつ</li>
-                        </ul>
-                        <p>各486円（税込）</p>
+                    <div class="content">
+                        <div>
+                            <ul>
+                                <li>み (もも肉)</li>
+                                <li>ねっく (首肉)</li>
+                                <li>ねぎま</li>
+                                <li>こころ (心臓)</li>
+                                <li>つくね (自家製)</li>
+                                <li>なんこつ</li>
+                            </ul>
+
+                            <ul>
+                                <li>さんかく (しっぽ)</li>
+                                <li>うずら卵</li>
+                                <li>親鶏</li>
+                                <li>豚バラ</li>
+                                <li>豚ホルモン (しろ)</li>
+                                <li>やげんなんこつ</li>
+                            </ul>
+                        </div>
+                        <p>各486円<small>（税込）</small></p>
                     </div>
                 </div>
 
                 <div class="bottom">
                     <div>
                         <h3>組み合わせ串</h3>
-                        <div>
+                        <div class="content">
                             <ul>
                                 <li>しそ巻</li>
                                 <li>鳥チーズ</li>
                                 <li>つくねマヨネーズ</li>
                                 <li>つくねチーズ</li>
                             </ul>
-                            <p>各508円（税込）</p>
+                            <p>各508円<small>（税込）</small></p>
                         </div>
                     </div>
 
                     <div>
                         <h3>野菜串</h3>
                         <div>
-                            <div>
+                            <div class="content border">
                                 <ul>
                                     <li>玉ねぎ</li>
                                     <li>ピーマン</li>
                                 </ul>
-                                <p>各378円（税込）</p>
+                                <p>各378円<small>（税込）</small></p>
                             </div>
 
-                            <div>
+                            <div class="content">
                                 <ul>
                                     <li>ししとう</li>
                                     <li>しいたけ</li>
@@ -129,12 +134,12 @@
                                     <li>ぎんなん</li>
                                     <li>焼きナス</li>
                                 </ul>
-                                <p>各432円（税込）</p>
+                                <p>各432円<small>（税込）</small></p>
                             </div>
                         </div>
                     </div>
 
-                    <a href="">テイクアウトする</a>
+                    <a class="pc_only" href="tel:077-586-0912">テイクアウトする</a>
                     <p>※単品は全て3本での価格です。</p>
                 </div>
             </div>
@@ -142,20 +147,33 @@
 
         <section id="message">
             <div class="top">
-                <img src="" alt="">
-                <div>
-                    <h3>
+                <div class="txt sp_only">
+                    <h3 class="mintyo">
+                        ご家庭で本格的な焼き鳥
+                        <br/>　　　すみあんの味をご堪能ください
+                    </h3>
+                </div>
+
+                <div class="img">
+                    <img src="img/message_top001.jpg" alt="すみあんの生ビール">
+                </div>
+                
+                <div class="txt pc_only">
+                    <h3 class="mintyo">
                         ご家庭で本格的な焼き鳥
                         <br/>　すみあんの味をご堪能ください
                     </h3>
                 </div>
-                <img src="" alt="">
+                
+                <div class="img">
+                    <img src="img/message_top002.jpg" alt="本格焼き鳥">
+                </div>
             </div>
 
             <div class="bottom">
-                <img src="" alt="">
+                <img src="img/message_bottom.jpg" alt="自家製だれで本格焼き鳥">
                 <div>
-                    <p>
+                    <p class="mintyo">
                         <span>30年漬けた</span>している自家製のタレ...
                         <small><br/>歯に衣着せぬ口調の
                             <br/><span>元気な大将</span>がやっている
@@ -169,7 +187,7 @@
         <section id="company">
             <div class="wrap">
                 <div class="left">
-                    <a href=""><img src="" alt=""><p><small>串焼き・一品</small><br/>すみあん</p></a>
+                    <a href="#"><img src="img/logo_white.svg" alt="すみあんのロゴ"><p><small>串焼き・一品</small><br/>すみあん</p></a>
                     <p>お電話でのお問い合せ</p>
                     <a href="tel:077-586-0912"><img src="img/phone.svg" alt="お電話でのお問い合せ">077-586-0912</a>
                     <p>
@@ -181,41 +199,50 @@
                 <div class="right">
                     <div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>店名</p>
+                            <p>すみあん</p>
                         </div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>住所</p>
+                            <p>
+                                〒520-2361
+                                <br/>滋賀県野洲市北野１丁目１２−１７
+                            </p>
                         </div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>アクセス</p>
+                            <p>JR 琵琶湖線 野洲駅から徒歩 3分程度</p>
                         </div>
                     </div>
 
                     <div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>営業時間</p>
+                            <p>17：00～22：30</p>
                         </div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>定休日</p>
+                            <p>月曜日</p>
                         </div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <p>座席数</p>
+                            <p>
+                                カウンター席 10席
+                                <br/>座敷席 4人席2卓
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.452294612314!2d136.02171841524216!3d35.07043018034133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600170fbe898f4d7%3A0xc6ae219eb9694cca!2z44GZ44G_44GC44KT!5e0!3m2!1sja!2sjp!4v1644983332320!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </main>
     <footer>
         <p class="copy">&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> すみあん</p>
     </footer>
 
-    <a href="">予約する</a>
+    <a class="reserve sp_only" href="tel:077-586-0912">テイクアウト予約する</a>
+    <a class="reserve pc_only" href="tel:077-586-0912">予約する</a>
 </body>
 </html>

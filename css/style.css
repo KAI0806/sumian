@@ -163,6 +163,7 @@ main{
     background: url("../img/mv_txt_bg.jpg")no-repeat center center/cover;
     padding: 3rem 2.7rem 4.4rem;
     border: .4rem solid #D1AC72;
+    height: max-content;
 }
 
 #mv .txt h2:last-child{
@@ -907,6 +908,8 @@ footer p{
         position: absolute;
         left: 1.2rem;
         bottom: 1rem;
+        height: max-content;
+        width: max-content;
     }
 
     #message .top .txt::before{

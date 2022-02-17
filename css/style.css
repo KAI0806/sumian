@@ -163,7 +163,7 @@ main{
     background: url("../img/mv_txt_bg.jpg")no-repeat center center/cover;
     padding: 3rem 2.7rem 4.4rem;
     border: .4rem solid #D1AC72;
-    height: max-content;
+    height: 52rem;
 }
 
 #mv .txt h2:last-child{
@@ -366,6 +366,14 @@ main{
     padding: 1.2rem 9.3rem;
     position: relative;
     z-index: 10;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message .top .sp_flex{
+    display: none;
 }
 
 #message .top .txt::before{
@@ -707,6 +715,10 @@ footer p{
         letter-spacing: .25rem;
     }
 
+    #mv .txt h2:first-child{
+        height: 37rem;
+    }
+
     #mv .txt h2:last-child{
         top: 18rem;
         left: -3.9rem;
@@ -908,8 +920,11 @@ footer p{
         position: absolute;
         left: 1.2rem;
         bottom: 1rem;
-        height: max-content;
-        width: max-content;
+        width: 8.3rem;
+    }
+
+    #message .top .sp_flex{
+        display: flex;
     }
 
     #message .top .txt::before{
@@ -921,6 +936,8 @@ footer p{
 
     #message .top .txt h3{
         font-size: 2rem;
+        height: max-content;
+        letter-spacing: .5rem;
     }
 
     #message .top img{

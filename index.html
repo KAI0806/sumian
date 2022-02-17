@@ -20,7 +20,7 @@
     
             <div>
                 <a href="tel:077-586-0912"><img src="img/phone.svg" alt="お電話はこちら"></a>
-                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/tabelog.svg" alt="食べログ"></a>
+                <a href="https://tabelog.com/shiga/A2502/A250203/25004313/" target="_blank" rel="noopener noreferrer"><img src="img/tabelog.svg" alt="食べログ"></a>
             </div>
         </nav>
     </header>
@@ -168,10 +168,22 @@
                 <div class="img">
                     <img src="img/message_top002.jpg" alt="本格焼き鳥">
                 </div>
+
+                <img id="pararax" class="pc_only" src="img/message_top_para.jpg" alt="">
             </div>
 
             <div class="bottom">
-                <img src="img/message_bottom.jpg" alt="自家製だれで本格焼き鳥">
+                <div class="img sp_only">
+                    <picture>
+                        <source srcset="img/message_bottom.jpg" media="(min-width: 767px)" />
+                        <img id="pararax_sec" src="img/message_bottom.jpg" alt="自家製だれで本格焼き鳥">
+                    </picture>
+                </div>
+
+                <picture>
+                    <source srcset="img/message_bottom.jpg" media="(min-width: 767px)" />
+                    <img class="pc_only" src="img/message_bottom_sp.jpg" alt="自家製だれで本格焼き鳥">
+                </picture>
                 <div>
                     <p class="mintyo">
                         <span>30年漬けた</span>している自家製のタレ...
@@ -211,7 +223,7 @@
                         </div>
                         <div>
                             <p>アクセス</p>
-                            <p>JR 琵琶湖線 野洲駅から徒歩 3分程度</p>
+                            <p>JR 琵琶湖線 野洲駅から徒歩 3分</p>
                         </div>
                     </div>
 
@@ -228,7 +240,7 @@
                             <p>座席数</p>
                             <p>
                                 カウンター席 10席
-                                <br/>座敷席 4人席2卓
+                                <br class="pc_only"/>座敷席 4人席2卓
                             </p>
                         </div>
                     </div>
@@ -244,5 +256,16 @@
 
     <a class="reserve sp_only" href="tel:077-586-0912">テイクアウト予約する</a>
     <a class="reserve pc_only" href="tel:077-586-0912">予約する</a>
+
+    <script>
+        let pararax = document.getElementById('pararax');
+        let pararax_sec = document.getElementById('pararax_sec');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            pararax.style.top = value * -0.2 + 'px';
+            pararax_sec.style.top = value * -0.18 + 'px';
+        });
+    </script>
 </body>
 </html>

@@ -349,11 +349,13 @@ main{
 
 /* message */
 #message .top{
-    background: url("../img/message_top_bg.jpg")no-repeat center center/cover;
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2.5rem 0;
+    overflow: hidden;
+    position: relative;
 }
 
 #message .top .txt{
@@ -362,6 +364,7 @@ main{
     margin: 0 22.5rem;
     padding: 1.2rem 9.3rem;
     position: relative;
+    z-index: 10;
 }
 
 #message .top .txt::before{
@@ -372,6 +375,15 @@ main{
     bottom: 1.2rem;
     right: 1.5rem;
     background: url("../img/message_top_ill.svg")no-repeat center center/contain;
+}
+
+#message .top #pararax{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: translate(0, 1rem);
 }
 
 #message .top img{
@@ -411,6 +423,10 @@ main{
 
 #message .bottom img{
     width: 62.2rem;
+    position: relative;
+    transform: none;
+    left: unset;
+    top: unset;
 }
 
 #message .bottom div{
@@ -593,6 +609,10 @@ footer p{
     width: 1.434rem;
     height: 2.323rem;
     background: url("../img/reserve_arrow.svg")no-repeat center center/contain;
+}
+
+@media screen and (max-width: 1024px){
+
 }
 
 @media screen and (max-width: 767px){
@@ -877,6 +897,7 @@ footer p{
         position: relative;
         justify-content: flex-end;
         height: calc(38.5rem - 1.6rem);
+        overflow: visible;
     }
 
     #message .top .txt {
@@ -902,7 +923,7 @@ footer p{
         width: 11.2rem;
     }
 
-    #message .top .img:last-child{
+    #message .top .img:nth-child(4){
         margin: 0 1.6rem;
     }
 
@@ -912,6 +933,126 @@ footer p{
         right: -.7rem;
         bottom: -.5rem;
         background: #FFE3A4;
+    }
+
+    /* message bottom */
+    #message .bottom{
+        flex-direction: column;
+    }
+
+    #message .bottom .img{
+        width: 110%;
+        position: relative;
+        height: 1.06rem;
+        overflow: hidden;
+    }
+    
+    #message .bottom img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 43%;
+        transform: translate(-50%, 29.5rem);
+    }
+
+    #message .bottom div{
+        width: 100%;
+        padding: 5.3rem 0;
+        background: url("../img/message_bottom_sp_bg.jpg")no-repeat center center/cover;
+    }
+
+    #message .bottom div p{
+        margin: auto;
+        width: 85.33%;
+        min-width: 320px;
+        transform: none;
+        font-size: 2rem;
+    }
+
+    #message .bottom div p small{
+        font-size: 1.4rem;
+    }
+
+    /* company */
+    #company{
+        padding: 2rem 0 4.2rem;
+    }
+
+    #company .wrap{
+        flex-direction: column;
+        width: 85.33%;
+        min-width: 320px;
+    }
+
+    #company .wrap .left{
+        padding: 0;
+        padding-bottom: 2.7rem;
+        margin-bottom: 2.7rem;
+        border-bottom: .1rem solid white;
+        border-right: none;
+        width: 90%;
+    }
+
+    #company .wrap .left a:first-child{
+        margin-bottom: 2.24rem;
+    }
+
+    #company .wrap .left a:first-child img{
+        width: 6.595rem;
+        margin-right: 1.44rem;
+    }
+
+    #company .wrap .left > p:nth-child(2){
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1.72rem;
+    }
+
+    #company .wrap .left a:nth-child(3){
+        font-size: 2.4rem;
+        margin-bottom: 1.97rem;
+    }
+
+    #company .wrap .left a:nth-child(3) img{
+        width: 3.06rem;
+    }
+
+    #company .wrap .left > p:last-child{
+        font-size: 1.4rem;
+    }
+
+    #company .wrap .right{
+        flex-direction: column;
+        width: 85%;
+    }
+
+    #company .wrap .right div div{
+        margin-bottom: 1.5rem;
+    }
+
+    #company .wrap .right div div p{
+        font-size: 1.2rem;
+    }
+
+    #company .wrap .right div div p:first-child{
+        width: 7rem;
+    }
+
+    #company .wrap .right > div:last-child{
+        margin-left: 0;
+    }
+
+    .map{
+        height: 31.4rem;
+    }
+
+    footer{
+        padding: .85rem 0;
+        margin: 0 0 6.6rem;
+    }
+
+    footer p{
+        font-size: 1.2rem;
     }
 
     .reserve{
@@ -925,6 +1066,7 @@ footer p{
         padding: 1.8rem 0;
         width: 100%;
         text-align: center;
+        z-index: 1000;
     }
 
     .reserve::before{

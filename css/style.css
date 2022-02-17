@@ -583,6 +583,7 @@ footer p{
     font-weight: bold;
     color: white;
     box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 16%);
+    z-index: 1000;
 }
 
 .reserve:hover{

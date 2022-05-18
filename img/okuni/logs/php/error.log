@@ -1,0 +1,146 @@
+[27-Apr-2022 06:45:02 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_speech_balloons' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_speech_balloons made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/speech-balloons.php'), is_speech_balloons_record_empty, is_db_table_record_empty, get_db_table_record_count
+[27-Apr-2022 06:45:02 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_function_texts' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_function_texts made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/function-texts.php'), is_function_texts_record_empty, is_db_table_record_empty, get_db_table_record_count
+[27-Apr-2022 06:45:02 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_affiliate_tags' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_affiliate_tags made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/affiliate-tags.php'), is_affiliate_tags_record_empty, is_db_table_record_empty, get_db_table_record_count
+[27-Apr-2022 06:45:02 UTC] WordPress データベースエラー: Table 'local.wp_cocoon_item_rankings' doesn't exist for query SELECT COUNT(id) FROM wp_cocoon_item_rankings made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/cocoon-master/functions.php'), require_once('/themes/cocoon-master/lib/_defins.php'), require_once('/themes/cocoon-master/lib/_imports.php'), require_once('/themes/cocoon-master/lib/tinymce/item-rankings.php'), is_item_rankings_record_empty, is_db_table_record_empty, get_db_table_record_count
+[28-Apr-2022 01:34:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (tried: /Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so (dlopen(/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so, 0x0009): tried: '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (no such file)), /Users/runner/work/_temp/local-lightning-php/php-7.4.1/build/lib/php/extensions/no-debug-non-zts-20190902//Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so.so (dlopen(/Users/runner/work/_temp in Unknown on line 0
+[28-Apr-2022 01:34:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (tried: /Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so (dlopen(/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so, 0x0009): tried: '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (no such file)), /Users/runner/work/_temp/local-lightning-php/php-7.4.1/build/lib/php/extensions/no-debug-non-zts-20190902//Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+16/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so.so (dlopen(/Users/runner/work/_temp in Unknown on line 0
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/page.php:15
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:42 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:42 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:42 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:42 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:43 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:43 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:43 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:43 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:43 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:43 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:43 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:43 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:43 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:43 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:43 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:43 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:43 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:43 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:43 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:43 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:43 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:43 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:43 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:43 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:43 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:43 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:43 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:43 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:43 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:43 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
+[28-Apr-2022 09:36:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_admin_bar_bump_cb' not found or invalid function name in /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php on line 307
+[28-Apr-2022 09:36:43 UTC] PHP Stack trace:
+[28-Apr-2022 09:36:43 UTC] PHP   1. {main}() /Users/masatakekai/Local Sites/okuni/app/public/index.php:0
+[28-Apr-2022 09:36:43 UTC] PHP   2. require() /Users/masatakekai/Local Sites/okuni/app/public/index.php:17
+[28-Apr-2022 09:36:43 UTC] PHP   3. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-blog-header.php:19
+[28-Apr-2022 09:36:43 UTC] PHP   4. include() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template-loader.php:106
+[28-Apr-2022 09:36:43 UTC] PHP   5. get_header() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/404.php:10
+[28-Apr-2022 09:36:43 UTC] PHP   6. locate_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:48
+[28-Apr-2022 09:36:43 UTC] PHP   7. load_template() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:716
+[28-Apr-2022 09:36:43 UTC] PHP   8. require_once() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/template.php:770
+[28-Apr-2022 09:36:43 UTC] PHP   9. wp_head() /Users/masatakekai/Local Sites/okuni/app/public/wp-content/themes/the-blank/header.php:20
+[28-Apr-2022 09:36:43 UTC] PHP  10. do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/general-template.php:3042
+[28-Apr-2022 09:36:43 UTC] PHP  11. WP_Hook->do_action() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/plugin.php:474
+[28-Apr-2022 09:36:43 UTC] PHP  12. WP_Hook->apply_filters() /Users/masatakekai/Local Sites/okuni/app/public/wp-includes/class-wp-hook.php:331
